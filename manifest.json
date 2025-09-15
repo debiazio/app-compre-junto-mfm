@@ -1,7 +1,7 @@
 {
   "vendor": "mfmgroup",
   "name": "bundle",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "title": "bundle",
   "description": "App para fazer aparecer acessorios na pdp!",
   "builders": {
