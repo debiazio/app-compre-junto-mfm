@@ -1,0 +1,19 @@
+query productInstallments($slug: String) {
+  product(slug: $slug) {
+    productId
+    productName
+    items {
+      sellers {
+        commertialOffer {
+          Installments {
+            Value
+            InterestRate
+            TotalValuePlusInterestRate
+            NumberOfInstallments
+            PaymentSystemName
+          }
+        }
+      }
+    }
+  }
+}
